@@ -3,7 +3,7 @@ Agent any
 Stages {
 Stage ('check validate') {
 Steps {
-Echo 'Iam Validating the code'
+Echo "am Validating the code"
 } }
 Stage('Compilation'){
 Steps {

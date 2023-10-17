@@ -1,22 +1,22 @@
 Pipeline {
 Agent any
 Stages {
-Stage (‘check validate’) {
+Stage ('check validate') {
 Steps {
-Echo ‘Iam Validating the code ‘
+Echo 'Iam Validating the code'
 } }
-Stage(‘Compilation’) {
+Stage('Compilation'){
 Steps {
-Echo ‘I am Compiling the code’
+Echo 'I am Compiling the code'
 } }
-Stage(‘Install’) {
+Stage('Install') {
 Steps {
-Echo ‘I am Installing the code’
+Echo 'I am Installing the code'
 } }
-Stage(‘Deploy’)
+Stage('Deploy')
 {
 Steps {
-Echo ‘I am Deploying the code’
+Echo 'I am Deploying the code'
 }
 }
 }
